@@ -1,9 +1,9 @@
 [Unit]
-Description=Check Technitium TLS certificate renewal every 12 hours
+Description=Check UDM Pro TLS certificate renewal every 12 hours
 
 [Timer]
 OnBootSec=5min
-OnUnitActiveSec=2h
+OnUnitActiveSec=12h
 RandomizedDelaySec=3min
 
 [Install]

@@ -1,0 +1,11 @@
+[Unit]
+Description=Renew UDM Pro TLS certificate via step-ca
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=root
+ExecStart=/data/local/scripts/cert-renew.sh
+StandardOutput=journal
+StandardError=journal

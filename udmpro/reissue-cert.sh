@@ -1,0 +1,1 @@
+export STEPPATH=/data/local/.step && /data/local/bin/step ca certificate --san unifi.robb.erickstubbs.com --san unifi --san 192.168.1.1 --kty RSA --not-after 720h unifi.robb.erickstubbs.com /data/local/certs/udmpro.crt /data/local/certs/udmpro.key && /data/local/scripts/cert-post-renew.sh
